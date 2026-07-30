@@ -1,7 +1,29 @@
 aid: mint-state-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mint-state-labs.png
 name: Mint State Labs
-description: Mint State Labs is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mint State Labs (mintstatelabs.com, operating as Wildnet Edge) is an AI-first
+  custom software development and IT outsourcing company delivering custom AI,
+  machine learning, mobile, web, and cloud engineering services to enterprises
+  and Fortune 500 clients. Its offerings span custom AI model and agent
+  development, generative AI, ChatGPT app development, mobile and web app
+  development, DevOps, data engineering, business intelligence, and staff
+  augmentation ("build a team" / white-label) across a broad set of frameworks
+  and platforms. It was surfaced as a Techstars portfolio company and added to
+  the API Evangelist network as a lead; the public presence is a marketing and
+  services site with no first-party API product, developer portal, OpenAPI, or
+  SDK surface at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/mint-state-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Software Development
+- IT Outsourcing
+- Artificial Intelligence
+- Machine Learning
+- Consulting
+- Cloud
+- Staff Augmentation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mint-state-labs-domain-security.yml
+- type: LLMsTxt
+  url: llms/mint-state-labs-llms.txt
 - type: Website
   url: https://mintstatelabs.com/
+- type: Blog
+  url: https://www.mintstatelabs.com/blogs
+- type: Support
+  url: https://www.mintstatelabs.com/contact-us
+- type: TermsOfService
+  url: https://www.mintstatelabs.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.mintstatelabs.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
