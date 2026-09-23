@@ -1,0 +1,31 @@
+# Front Door AI Index — mint-state-labs — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mint-state-labs
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: mintstatelabs.com
+  final_host: www.mintstatelabs.com
+  ownership: own
+  owner: mint-state-labs
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 56.6
+  words: 265
+  tiers:
+    agentic: 2
+    core: 13
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 12
+    automation: 1
+    chatbot: 1
+    machine learning: 1
+    predictive: 1
+    smart: 1
+    virtual assistant: 1
